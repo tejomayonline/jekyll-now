@@ -3,16 +3,13 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        Hi folks, how are you doing? I'm Tejomay Saha who loves to learn and share knowledge about technologies, programming, mindset, understanding with the world.I hope this site will help to improve yourself.
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <img alt="developer ceative setup homepage image" src="{{site.baseurl}}/images/home.jpg" />
     </article>
-  {% endfor %}
 </div>
